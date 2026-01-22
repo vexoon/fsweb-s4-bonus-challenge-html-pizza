@@ -8,6 +8,9 @@
   
 }
 
+.header-section {
+  width: 100%;
+}
 .logo {
   width: 363px;
   height: 50px;
@@ -17,7 +20,7 @@
 }
 
 .container-home p {
-  font-family: satisfy;
+  font-family: "Satisfy", cursive;
   font-size: 32px;
   color: #FDC913;
   line-height: 44.27px;
@@ -52,14 +55,175 @@
 
 .menu-header {
   display: flex;
-  justify-content: space-around;
-  margin: 26px 426px;
-  width: 100wm;
-  height: 94px;
+  justify-content: space-between;
+  margin: 24px auto;
+  width: 100%;
+  height: 47px;
   align-items: center;
+  padding: 0 415px;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32.4px;
+}
+
+.nav-menu img {
+  margin: 0 16px;
+}
+
+.main-section {
+  background-color: #FAF7F2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cta-pizza {
+  background-image: url(public/assets/iteration-2/cta/kart-1.png);
+  width: 531px;
+  height: 449px;
+  border-radius: 12px;
+  margin-right: 11px;
+  padding: 44px 39px;
+  background-size: cover;
+  
+  
+}
+
+.cta-burger {
+  background-image: url(public/assets/iteration-2/cta/kart-2.png);
+  width: 530px;
+  height: 220px;
+  border-radius: 12px;
+  padding: 28.5px 32px;
+  background-size: cover;
+}
+
+.cta-kurye {
+  background-image: url(public/assets/iteration-2/cta/kart-3.png);
+  width: 530px;
+  height: 220px;
+  border-radius: 12px;
+  padding: 29.5px 32px;
+  margin-top: 9px;
+  background-size: cover;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 68px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 449px;
+}
+
+.cta-pizza h1 {
+  font-family: "Quattrocento", serif;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 72px;
+  width: 288px;
+  color: white;
+}
+
+.cta-pizza p {
+  font-family: "Barlow", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26.76px;
+  margin-top: 5.8px;
+  
+}
+
+.cta-btn {
+  width: 138px;
+  height: 48px;
+  border-radius: 50px;
+  margin-top: 25px;
+  border: none;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 48px;
+  color: #CE2829;
+}
+
+.cta-burger h2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44.27px;
+  color: white;
+  width: 182.35px;
+  
+}
+
+.cta-kurye h2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44.27px;
+  color: #292929;
+  width: 254px;
+}
+
+.baslik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.baslik p {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42.27px;
+  color: #CE2829;
+  margin-top: 55px;
+}
+
+.baslik h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56.2px;
+  margin-top: 8px;
+}
+
+.menu-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px auto;
+  width: 100%;
+  height: 47px;
+  align-items: center;
+  padding: 0 415px;
+}
+
+
+.nav-menu-main {
+  display: flex;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32.4px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0 20px;
+  height: 66px;
+  
+}
+
+.nav-menu-main img {
+  margin-right: 10px;
+  
 }
