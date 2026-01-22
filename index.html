@@ -4,23 +4,167 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chelsea+Market&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
     <title>Workintech + 🍕</title>
   </head>
 
   <body>
-    <div id="app">
-      <div>
-        <a href="https://github.com/Workintech/fsweb-s5-bonus-challenge-html-pizza" target="_blank">
-          <img src="./workintech.svg" class="logo" alt="Workintech logo">
+    <section class="header-section">
+      <header>
+        <img style="stroke-width: 50" class="logo" src="public/assets/iteration-1/logo.svg" />
+        <div class="container-home">
+          <p>fırsatı kaçırma</p>
+          <h1>Kod acıktırır pızza, doyurur</h1>
+          <button class="btn">Acıktım</button>
+        </div>
+      </header>
+      <nav class="menu-header">
+        <a class="nav-menu">
+          <img src="public/assets/iteration-2/icons/1.svg" />
+          YENİ! Kore
         </a>
-        <h1>Hello Coder!</h1>
-        <p class="read-the-docs">
-          Click on the Workintech logo to see the Readme of the project
+        <a class="nav-menu">
+          <img src="public/assets/iteration-2/icons/2.svg" />
+          Pizza
+        </a>
+        <a class="nav-menu">
+          <img src="public/assets/iteration-2/icons/3.svg" />
+          Burger
+        </a>
+        <a class="nav-menu">
+          <img src="public/assets/iteration-2/icons/4.svg" />
+          Kızartmalar
+        </a>
+        <a class="nav-menu">
+          <img src="public/assets/iteration-2/icons/5.svg" />
+          Fast food
+        </a>
+        <a class="nav-menu">
+          <img src="public/assets/iteration-2/icons/6.svg" />
+          Gazlı içecek
+        </a>
+      </nav>
+    </section>
+    
+    <section class="main-section">
+      <div class="cta">
+        <div class="cta-pizza">
+          <h1>Özel Lezzetus</h1>
+          <p>Position:Absolute Acı Burger</p>
+          <button class="cta-btn">SİPARİŞ VER</button>
+        </div>
+        <div class="cta-burger">
+          <h2>Özel Lezzetus</h2>
+          <button class="cta-btn">SİPARİŞ VER</button>
+        </div>
+        <div class="cta-kurye">
+          <h2>Özel Lezzetus</h2>
+          <button class="cta-btn">SİPARİŞ VER</button>
+        </div>
+      </div>
+      <div class="baslik">
+        <p>en çok paketlenen menüler</p>
+        <h1>Acıktıran Kodlara Doyuran Lezzetler</h1>
+      </div>
+      <nav class="menu-main">
+        <a>
+          <img src="public/assets/iteration-2/icons/1.svg" />
+          Ramen
+        </a>
+        <a>
+          <img src="public/assets/iteration-2/icons/2.svg" />
+          Pizza
+        </a>
+        <a>
+          <img src="public/assets/iteration-2/icons/3.svg" />
+          Burger
+        </a>
+        <a>
+          <img src="public/assets/iteration-2/icons/4.svg" />
+          French fries
+        </a>
+        <a>
+          <img src="public/assets/iteration-2/icons/5.svg" />
+          Fast food
+        </a>
+        <a>
+          <img src="public/assets/iteration-2/icons/6.svg" />
+          Soft drinks
+        </a>
+      </nav>
+      <div class="urunler">
+        <div class="card-1">
+          <img src="public/assets/iteration-2/pictures/food-1.png" />
+          <h3>Terminal Pizza</h3>
+          <p class="puan">4.9</p>
+          <p class="yorum">(200)</p>
+          <p class="fiyat">60 tl</p>
+        </div>
+        <div class="card-2">
+          <img src="public/assets/iteration-2/pictures/food-2.png" />
+          <h3>Position Absolute Acı Pizza</h3>
+          <p class="puan">4.9</p>
+          <p class="yorum">(200)</p>
+          <p class="fiyat">60 tl</p>
+        </div>
+        <div class="card-3">
+          <img src="public/assets/iteration-2/pictures/food-3.png" />
+          <h3>useEffect Tavuklu Burger</h3>
+          <p class="puan">4.9</p>
+          <p class="yorum">(200)</p>
+          <p class="fiyat">60 tl</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-section">
+      <div class="adress">
+        <img class="footer-logo" src="public/assets/iteration-2/footer/logo-footer.svg" />
+        <p>
+          <img class="footer-icon" src="public/assets/iteration-2/footer/icons/icon-1.png" />
+          341 Londonderry Road, Istanbul Türkiye
+        </p>
+        <p>
+          <img class="footer-icon" src="public/assets/iteration-2/footer/icons/icon-2.png" />
+          aciktim@teknolojikyemekler.com
+        </p>
+        <p>
+          <img class="footer-icon" src="public/assets/iteration-2/footer/icons/icon-3.png" />
+          +90 216 123 45 67
         </p>
       </div>
-    </div>
+      <div class="hot-menu">
+        <h1>HOT MENU</h1>
+        <nav>
+          <a>Terminal Pizza</a>
+          <a>5 Kişilik Hackathlon Pizza</a>
+          <a>useEffect Tavuklu Pizza</a>
+          <a>Beyaz Console Frosty</a>
+          <a>Testler Geçti Mutlu Buger</a>
+          <a>Position Absolute Acı Burger</a>
+        </nav>
+      </div>
+      <div class="social">
+        <h1>Instagram</h1>
+        <img src="public/assets/iteration-2/footer/insta/li-0.png" />
+        <img src="public/assets/iteration-2/footer/insta/li-1.png" />
+        <img src="public/assets/iteration-2/footer/insta/li-2.png" />
+        <img src="public/assets/iteration-2/footer/insta/li-3.png" />
+        <img src="public/assets/iteration-2/footer/insta/li-4.png" />
+        <img src="public/assets/iteration-2/footer/insta/li-5.png" />
+      </div>
+      <div class="copyright">
+        © 2023 Teknolojik Yemekler. 
+        <img src="twitter"/>
+      </div>
+    </section>
   </body>
 
 </html>
