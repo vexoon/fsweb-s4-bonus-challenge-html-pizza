@@ -310,45 +310,55 @@
 .footer-section {
   display: block;
   background-color: #1A1A1A;
-  padding: 58px;
 }
 
 .container-footer {
   display: flex;
-  gap: 56px;
   justify-content: center;
+  gap: 56px;
+  margin-bottom: 48.5px;
+  padding-top: 58px;
 }
 
-.adress {
+.address-menu-footer {
   display: flex;
-  flex-direction: column;
-  gap: 24.78px;
-  
+  gap: 40px;
 }
 
-.adress p {
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 70%;
+}
+
+.contact-list li {
+  display: flex;
+  gap: 13px;
+  align-items: baseline;
+  margin-top: 22px;
+}
+
+.contact-list li span {
   color: white;
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 32.4px;
+}
+
+.address {
   display: flex;
-  align-items: baseline;
-  max-width: 306px;
-  
+  flex-direction: column;
+  gap: 24.78px;
+  justify-content: start;
+  width: 50%;
 }
 
 .footer-logo {
   width: 251px;
   height: 100px;
   padding-right: 60px;
-
-}
-
-.adress img {
-  margin-right: 13px;
-  object-fit: contain;
-
 }
 
 .adress-container {
@@ -358,16 +368,16 @@
   flex-direction: column;
 }
 
-.hot-menu {
+.menu {
   display: flex;
   flex-direction: column;
   gap: 26.09px;
   margin-top: 75px;
   align-items: baseline;
-  
+  margin-right: 50px;
 }
 
-.hot-menu h1 {
+.menu h3 {
   color: white;
   font-family: "Barlow", sans-serif;
   font-weight: 500;
@@ -375,7 +385,7 @@
   line-height: 32.11px;
 }
 
-.hot-menu nav {
+.menu ul {
   display: flex;
   flex-direction: column;
   color: white;
@@ -384,19 +394,29 @@
   font-size: 18px;
   line-height: 32.4px;
   gap: 7.39px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
+.menu li a {
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32.4px;
+  color: white;
 }
 
 .social {
   display: flex;
   flex-direction: column;
-  max-width: 347px;
-  margin-left: 85px;
+  margin-left: 20px;
   margin-top: 75px;
   justify-content: start;
 }
 
-.social h1 {
+.social h3 {
   color: white;
   font-family: "Barlow", sans-serif;
   font-weight: 500;
@@ -412,24 +432,24 @@
   gap: 20px;
   column-gap: 20px;
   object-fit: contain;
-  
 }
 
-.copyright {
+.container-copyright {
   background-color: #1A1A1A;
   border-top: 1px solid #5F5F5F;
-  padding: 30.55px;
+  padding: 30.55px 420px;
   display: flex;
   color: white;
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28.8px;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   
 }
 
-.copyright img {
+.container-copyright img {
   width: 18px;
   height: 18px;
 }
