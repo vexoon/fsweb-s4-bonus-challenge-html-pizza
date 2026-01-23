@@ -1,22 +1,29 @@
-.header-section header {
+.header-section {
   background-image: url(public/assets/iteration-1/home-banner.png);
+  background-size: cover;
   width: 100%;
+  height: 115vh;
   display: flex;
-  height: 1080px;
   flex-direction: column;
   align-items: center;
-  
 }
 
-.header-section {
-  width: 100%;
+.header-section img {
+  margin-top: 56px;
 }
-.logo {
-  width: 363px;
-  height: 50px;
-  margin: 56px 778px;
-  
-  
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
+  width: 50%;
+  align-items: center;
+}
+
+.container-home div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-home p {
@@ -34,16 +41,16 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   line-height: 92px;
-}
-
-.container-home {
-  width: 767.64px;
   text-align: center;
 }
 
 .container-home .btn {
-  margin: 15px auto;
-  padding: 14px 66.6px;
+  text-align: center;
+  width: 20%;
+  padding: 1px 50px;
+  margin-top: 13.27px;
+  color: #292929;
+  text-decoration: none;
   border-radius: 50px;
   background-color: #FDC913;
   border: none;
@@ -51,29 +58,29 @@
   font-weight: 600;
   text-transform: uppercase;
   font-size: 18px;
+  line-height: 56px;
 }
 
 .menu-header {
   display: flex;
-  justify-content: space-between;
-  margin: 24px auto;
-  width: 100%;
-  height: 47px;
-  align-items: center;
-  padding: 0 415px;
+  justify-content: center;
+  padding: 26px;
 }
 
-.nav-menu {
+.menu-header a {
   display: flex;
   align-items: center;
   font-family: "Barlow", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 32.4px;
+  text-decoration: none;
+  color: #292929;
+  padding: 0 26px;
 }
 
-.nav-menu img {
-  margin: 0 16px;
+.menu-header span {
+  padding-left: 16px;
 }
 
 .main-section {
@@ -83,16 +90,22 @@
   width: 100%;
 }
 
-.cta-pizza {
+.container-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 68px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 11px;
+}
+
+.cta-main {
   background-image: url(public/assets/iteration-2/cta/kart-1.png);
   width: 531px;
   height: 449px;
   border-radius: 12px;
-  margin-right: 11px;
   padding: 44px 39px;
   background-size: cover;
-  
-  
 }
 
 .cta-burger {
@@ -114,17 +127,9 @@
   background-size: cover;
 }
 
-.cta {
-  display: flex;
-  justify-content: center;
-  margin-top: 68px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 449px;
-}
 
-.cta-pizza h1 {
+
+.cta-main h3 {
   font-family: "Quattrocento", serif;
   font-size: 68px;
   font-weight: 700;
@@ -133,55 +138,63 @@
   color: white;
 }
 
-.cta-pizza p {
+.cta-main p {
   font-family: "Barlow", sans-serif;
   color: white;
   font-size: 20px;
   font-weight: 600;
   line-height: 26.76px;
   margin-top: 5.8px;
+  margin-bottom: 25px;
   
 }
 
 .cta-btn {
-  width: 138px;
-  height: 48px;
+  background-color: white;
+  text-decoration: none;
   border-radius: 50px;
-  margin-top: 25px;
   border: none;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 48px;
   color: #CE2829;
+  width: 20%;
+  padding: 15px 30px;
 }
 
-.cta-burger h2 {
+.cta-burger h3 {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 44.27px;
   color: white;
   width: 182.35px;
+  margin-bottom: 29px;
   
 }
 
-.cta-kurye h2 {
+.cta-kurye h3 {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 44.27px;
   color: #292929;
   width: 254px;
+  margin-bottom: 24.5px;
 }
 
-.baslik {
+.cta-kurye h3 span {
+  color: #CE2829;
+}
+
+.container-baslik {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.baslik p {
+.container-baslik p {
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-size: 32px;
@@ -190,7 +203,7 @@
   margin-top: 55px;
 }
 
-.baslik h1 {
+.container-baslik h2 {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-size: 42px;
@@ -198,49 +211,56 @@
   margin-top: 8px;
 }
 
-.menu-main {
+.container-list {
   display: flex;
-  justify-content: space-between;
-  margin: 24px auto;
-  width: 100%;
-  height: 47px;
-  align-items: center;
-  padding: 0 415px;
+  justify-content: center;
+  margin-top: 26px;
 }
 
+.container-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-.nav-menu-main {
+.container-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.container-list li a {
+  text-decoration: none;
   display: flex;
   align-items: center;
-  font-family: "Barlow", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32.4px;
+  gap: 10px;
   background-color: white;
   border-radius: 50px;
   padding: 0 20px;
   height: 66px;
-  
 }
 
-.nav-menu-main img {
-  margin-right: 10px;
-  
+.container-list li a {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32.4px;
+  color: black;
 }
 
-.urunler {
+.container-list ul li:nth-child(2) a {
+  background-color: #292929;
+  color: white;
+}
+
+.container-urunler {
   display: flex;
-  justify-content: space-around;
-  margin-top: 18px;
+  justify-content: center;
+  margin-top: 33px;
   margin-bottom: 70px;
-  margin-left: auto;
-  margin-right: auto;
-
-  
-  
+  gap: 32px;
 }
 
-.card-1 {
+.card {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -248,31 +268,8 @@
   height: 419px;
   padding: 32px;
   gap: 24px;
-  margin: 0 16px;
+  border-radius: 12px;
 }
-
-.card-2 {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  width: 334.64px;
-  height: 419px;
-  padding: 32px;
-  gap: 24px;
-  margin: 0 16px;
-}
-
-.card-3 {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  width: 334.64px;
-  height: 419px;
-  padding: 32px;
-  gap: 24px;
-  margin: 0 16px;
-}
-
 
 .info-urun {
   display: flex;
@@ -311,11 +308,15 @@
 }
 
 .footer-section {
-  display: flex;
+  display: block;
   background-color: #1A1A1A;
   padding: 58px;
+}
+
+.container-footer {
+  display: flex;
+  gap: 56px;
   justify-content: center;
-  gap: 51px;
 }
 
 .adress {
