@@ -60,7 +60,6 @@
   text-transform: uppercase;
   font-size: 18px;
   line-height: 56px;
-  text-align: center;
 }
 
 .menu-header {
@@ -148,7 +147,6 @@
   line-height: 26.76px;
   margin-top: 5.8px;
   margin-bottom: 25px;
-  
 }
 
 .cta-btn {
@@ -173,7 +171,6 @@
   color: white;
   width: 182.35px;
   margin-bottom: 29px;
-  
 }
 
 .cta-kurye h3 {
@@ -465,7 +462,6 @@
     background-position: center 115px;
     background-repeat: no-repeat;
     height: 128vh;
-
   }
   .container-home {
     align-items: center;
@@ -593,4 +589,93 @@
   padding: 34.5px 0 50px 0;
   padding-bottom: 50px;
 }
+}
+
+@media (max-width: 480px) {
+  .header-section {
+    height: 115vh;
+  }
+  .container-home {
+    width: 73.5%;
+    max-width: 395px;
+    margin-top: 35.48px;
+  }
+  .container-home h1 {
+    font-size: 4.7rem;
+    letter-spacing: 1.5px;
+    line-height: 81.6px;
+  }
+  .header-section img {
+    margin-top: 110.8px;
+    width: 66.9%;
+  }
+  .container-home .btn {
+    margin-top: 35.48px;
+    width: 171.4px;
+    font-size: 1.35rem;
+    padding: 0;
+    height: 49.6px;
+    border-radius: 44.3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-header {
+    row-gap: 25.7px;
+    padding: 28.3px;
+    margin: 8.87px 57.3px;
+    align-items: center;
+  }
+  .menu-header a {
+    padding-right: 17.7px;
+    font-size: 15.9px;
+    line-height: 30.5px;
+    padding: 0 23px;
+  }
+  .menu-header a:nth-child(2n+1) {
+    padding-left: 0;
+  }
+  .menu-header a img {
+    width: 37.2px;
+  }
+  .main-section {
+    padding-top: 47px;
+    padding-left: 52.7px;
+    padding-right: 52.7px;
+  }
+  .cta-main {
+    width: 374.3px;
+    height: 298px;
+    padding: 39px 34.5px;
+  }
+  .container-cta {
+    margin: 0;
+  }
+  .cta-main h3 {
+    font-size: 60.3px;
+    line-height: 63.8px;
+  }
+  .cta-main p {
+    font-size: 17.74px;
+    line-height: 23.5px;
+    margin-top: 5.1px;
+    margin-bottom: 22.1px;
+  }
+  .cta-btn {
+    border-radius: 44.3px;
+    font-size: 12.4px;
+    line-height: 42.5px;
+    padding: 13.3px 26.6px;
+  }
+  .cta-burger {
+    width: 374.3px;
+    height: 239.4px;
+    padding: 47.45px 28.3px;
+  }
+  
+  .cta-burger h3 {
+    font-size: 28.3px;
+    line-height: 39.2px;
+    margin-bottom: 25.7px;
+  }
 }
