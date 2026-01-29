@@ -594,6 +594,8 @@
 @media (max-width: 480px) {
   .header-section {
     height: 115vh;
+    width: 100vw;
+    max-width: 480px;
   }
   .container-home {
     width: 73.5%;
@@ -650,6 +652,7 @@
   }
   .container-cta {
     margin: 0;
+    align-items: center;
   }
   .cta-main h3 {
     font-size: 60.3px;
@@ -711,7 +714,7 @@
   .container-list li a {
     gap: 8.87px;
     border-radius: 44.3px;
-    padding: 0 17.7px;
+    padding: 0 9px;
     height: 58.5px;
     flex: 1;
   }
@@ -723,7 +726,7 @@
     width: 37.2px;
   }
   .card {
-    height: 466.56px;
+    height: 34.7%;
   }
   .info-urun h3 {
     font-size: 19.5px;
