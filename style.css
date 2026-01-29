@@ -594,7 +594,6 @@
 @media (max-width: 480px) {
   .header-section {
     height: 115vh;
-    width: 100vw;
     max-width: 480px;
   }
   .container-home {
@@ -626,13 +625,19 @@
     row-gap: 25.7px;
     padding: 28.3px;
     margin: 8.87px 57.3px;
-    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
   }
   .menu-header a {
     padding-right: 17.7px;
     font-size: 15.9px;
     line-height: 30.5px;
     padding: 0 23px;
+  }
+  .menu-header a span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .menu-header a:nth-child(2n+1) {
     padding-left: 0;
