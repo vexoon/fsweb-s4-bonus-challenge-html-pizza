@@ -623,10 +623,8 @@
   }
   .menu-header {
     row-gap: 25.7px;
-    padding: 28.3px;
+    padding: 14.3px;
     margin: 8.87px 57.3px;
-    justify-content: center;
-    flex-shrink: 0;
   }
   .menu-header a {
     padding-right: 17.7px;
@@ -638,9 +636,13 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    padding-left: 8px;
   }
   .menu-header a:nth-child(2n+1) {
     padding-left: 0;
+  }
+  .menu-header a:nth-child(2n) {
+    padding-left: 12%;
   }
   .menu-header a img {
     width: 37.2px;
